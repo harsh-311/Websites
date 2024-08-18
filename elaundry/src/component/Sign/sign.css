@@ -1,0 +1,95 @@
+.container4{
+    display: flex;
+    width: 65%;
+    height: 550px;
+    margin: 40px auto;
+    box-shadow: 0px 0px  6px black;
+  }
+  .container4 .form {
+    padding: 40px;
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid red; */
+  }
+  .form h2{
+    font-size: 38px;
+    margin-bottom: 20px;
+    margin-left: 80px;
+  }
+  label{
+    display: block;
+  }
+  label i{
+    margin-right: 10px;
+  }
+  .container4 label input{
+    outline: none;
+    margin-left: 10px;
+    width: 300px;
+    padding: 7px;
+    /* border: none; */
+    border: 2px solid rgb(179, 169, 169);
+    border-left: none;
+    border-top: none;
+    font-size: 19px;
+    border-right: none;
+    letter-spacing: .7px;
+    margin: 12px 0px;
+    /* position: relative; */
+    /* text-decoration: underline; */
+  }
+ .container4 label input::placeholder{
+    font-size: 19px;
+    /* color: black; */
+    letter-spacing: 1px;
+  }
+  .container4 label input:focus::placeholder{
+    color: black;
+  }
+  
+  
+  .btn{
+    width: 100px;
+    height: 34px;
+    position: relative;
+    top: 16px;
+    left: 100px;
+    font-size: 19px;
+    background-color: cadetblue;
+    border: none;
+    border-radius: 5px;
+    transition:all .5s linear;
+    /* position: relative; */
+  }
+  .btn:hover{
+    /* left:200px; */
+    background-color: transparent;
+    border: 1px solid black;
+  }
+  .left-button{
+    transform: translateX(50%);
+  }
+  .right-button{
+    transform: translateX(-50%);
+  }
+  .container4 .img{
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid green; */
+  }
+  .img a{
+    color: black;
+    text-decoration: none;
+  }
+  .img a:hover{
+    text-decoration: underline;
+  }
+  .img img{
+    /* width: 80%; */
+    height: 80%;
+  }

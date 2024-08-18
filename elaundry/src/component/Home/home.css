@@ -1,0 +1,83 @@
+.container2{
+    /* margin-top: 20px; */
+    width: 100%;
+    height: 77.3vh;
+    /* border: 2px solid black; */
+    background-image: url(./home2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}.container2 .middel-container{
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,.2));
+    width: 30%;
+    height: 83%;
+    position: relative;
+    top: 10%;
+    left: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    border-radius: 30px;
+    padding-left: 12px;
+}
+.container2 .middel-container img{
+    display: inline;
+    width: 50px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 19px;
+    margin-right: 15px;
+}
+.container2 .middel-container h2{
+    position: relative;
+    bottom: 14px;
+    display: inline;
+}
+footer{
+    /* border: 1px solid black; */
+    padding: 24px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer div{
+    display: flex;
+    gap: 19px;
+}
+.btn3{
+    width: 200px;
+    height: 54px;
+    position: absolute;
+    bottom: 200px;
+    left: 140px;
+    
+    font-size: 19px;
+    background-color: rgb(74, 109, 110);
+    border: none;
+    border-radius: 28px;
+    transition:all .5s linear;
+    /* position: relative; */
+  }
+  .btn3 a{
+      text-decoration: none;
+      color: rgb(223, 222, 246);
+      color: rgb(0, 0, 0);
+    
+    }
+    
+    .btn3:hover{
+      
+    /* left:200px; */
+    background-color: transparent;
+    border: 1px solid black;
+  }
+footer div .icon{
+    position: relative;
+    top: 9px;
+    width: 30px;
+    margin-right: 7px;
+    height: 30px;
+    background-color: aquamarine;
+    padding: 4px;
+    border-radius: 9px;
+}
